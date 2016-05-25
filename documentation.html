@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://themes.suelo.pl/mi/documentation.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:black;text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}</style><link type="text/css" rel="stylesheet" href="./documentation_files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}.gm-style img{max-width:none}</style>
+
+<!-- Meta -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!-- Title -->
+<title>Mi. - Ultimate Personal Resume vCard Template - Documentation</title>
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="http://themes.suelo.pl/mi/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="http://themes.suelo.pl/mi/assets/img/favicon_60x60.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://themes.suelo.pl/mi/assets/img/favicon_76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://themes.suelo.pl/mi/assets/img/favicon_120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://themes.suelo.pl/mi/assets/img/favicon_152x152.png">
+
+<!-- Google Web Fonts -->
+<link href="./documentation_files/css(1)" rel="stylesheet" type="text/css">
+<link href="./documentation_files/css(2)" rel="stylesheet" type="text/css">
+
+<!-- CSS Styles -->
+<link rel="stylesheet" href="./documentation_files/styles.css">
+
+<!-- CSS Code HighLighter -->
+<link rel="stylesheet" href="./documentation_files/prettify.css">
+
+<!-- CSS Template -->
+<link rel="stylesheet" href="./documentation_files/theme.min.css">
+<link rel="stylesheet" href="./documentation_files/blue-beige.css" id="color">
+
+<!-- Styleswitcher -->
+<link rel="stylesheet" href="./documentation_files/styleswitcher.css">
+
+<script type="text/javascript" charset="UTF-8" src="./documentation_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/map.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/marker.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="./documentation_files/QuotaService.RecordEvent"></script></head>
+
+<body data-spy="scroll" data-target="#side-navigation" data-offset="60" class=" pace-done">
+
+<!-- Loader -->
+<div id="page-loader" class="bg-white" style="display: none;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div></div>
+<!-- Loader / End -->
+
+<!-- Content -->
+<div id="content" data-scroll-easing="easeOutCirc">
+
+    <!-- Start -->
+    <section class="section bg-black dark padding-v-130 relative">
+
+        <!-- BG Image -->
+        <div class="bg-image" style="background-image: url(&quot;assets/img/photos/base-bg.jpg&quot;);"><img src="./documentation_files/base-bg.jpg" alt="" style="display: none;"></div>
+
+        <div class="container text-center">
+            <h1 class="margin-b-0">Welcome on <strong>Mi.</strong> documentation page!</h1>
+            <p class="lead">This page includes all designed elements which you may use while creating sites based on this template.</p>
+            <a href="http://themes.suelo.pl/mi/index.html" class="btn btn-blue btn-lg"><span>Pick a concept!</span><i class="ti-arrow-down"></i></a>
+            <a href="http://themes.suelo.pl/mi/documentation.html#" class="btn btn-link btn-lg"><span>Expolore documentation</span><i class="ti-shopping-cart"></i></a>
+        </div>
+
+    </section>
+    <!-- Start / End --> 
+    
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-9"> 
+
+                <!-- Getting Started -->
+                <div id="start" class="padding-v-90">
+
+                    <h1 class="border-bottom padding-b-10">Getting Started</h1>
+                    <p class="lead">Mi. is a HTML/CSS template based on <a href="http://getbootstrap.com/" target="_blank" class="link-default">Bootstrap 3</a> framework. It allows to built impressive, better &amp; faster, mobile friendly websites.</p>
+                    
+                    <!-- HTML Structure -->
+                    <div id="htmlStructure" class="padding-v-30">
+                        <h2><strong>HTML Structure</strong></h2>
+                        <p class="lead">This is the base of each HTML file:</p>
+<pre class="prettyprint"><span class="com">&lt;!-- Header --&gt;</span><span class="pln">
+</span><span class="tag">&lt;header</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"header"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/header&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Header / End --&gt;</span><span class="pln">
+
+</span><span class="com">&lt;!-- Content --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"content"</span><span class="tag">&gt;</span><span class="pln">
+
+    </span><span class="com">&lt;!-- Section - Example --&gt;</span><span class="pln">
+    </span><span class="tag">&lt;section</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"section"</span><span class="tag">&gt;</span><span class="pln">
+        ...  
+    </span><span class="tag">&lt;/section&gt;</span><span class="pln">
+    </span><span class="com">&lt;!-- Section - Example / End --&gt;</span><span class="pln">
+
+    ...
+
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Content / End --&gt;</span></pre>
+                    </div>
+
+                    <!-- Grid -->
+                    <div id="grid" class="padding-v-30">
+                        <h2><strong>Grid System</strong></h2>
+                        <p class="lead">Mi. Template supporst all features of <strong>Bootstrap</strong> Grid System - go to <a href="http://getbootstrap.com/#grid" target="_blank" class="link-default"> Bootrstrap's page</a> and check how does it work.</p>
+                    </div>
+
+                </div>
+                <!-- Getting Started / End -->
+
+                <!-- Elements -->
+                <div id="elements" class="padding-v-90">
+    
+                    <h1 class="border-bottom padding-b-10">CSS Elements</h1>
+                    <p class="lead">Thanks to awesome CSS elements you will be able to prepare unusual websites in the fastest and the easiest way. Check them out!</p>
+
+                    <!-- Colors -->
+                    <div id="colors" class="padding-v-30">
+                        <h2><strong>Available Colors</strong></h2>
+                        <h3>Colour scheme:</h3>
+                        <div class="row">
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-primary margin-b-5"></span>
+                                    <div>primary</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-secondary margin-b-5"></span>
+                                    <div>secondary</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-tertiary margin-b-5"></span>
+                                    <div>tertiary</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Other:</h3>
+                        <div class="row">
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-blue margin-b-5"></span>
+                                    <div>blue</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-blue-dark margin-b-5"></span>
+                                    <div>blue-dark</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-blue-navy margin-b-5"></span>
+                                    <div>blue-navy</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-green margin-b-5"></span>
+                                    <div>green</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-green-dark margin-b-5"></span>
+                                    <div>green-dark</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-green-navy margin-b-5"></span>
+                                    <div>green-navy</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-red margin-b-5"></span>
+                                    <div>red</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-red-dark margin-b-5"></span>
+                                    <div>red-dark</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-red-navy margin-b-5"></span>
+                                    <div>red-navy</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-orange margin-b-5"></span>
+                                    <div>orange</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-brown margin-b-5"></span>
+                                    <div>brown</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-beige margin-b-5"></span>
+                                    <div>beige</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-yellow margin-b-5"></span>
+                                    <div>yellow</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-yellow-navy margin-b-5"></span>
+                                    <div>yellow-navy</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-purple margin-b-5"></span>
+                                    <div>purple</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-purple-navy margin-b-5"></span>
+                                    <div>purple-navy</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-white border margin-b-5"></span>
+                                    <div>white</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-black margin-b-5"></span>
+                                    <div>black</div>
+                                </div>
+                            </div>
+                            <!-- Color -->
+                            <div class="col-lg-2 col-sm-3 col-xs-6">
+                                <div class="margin-b-30 text-center">
+                                    <span class="circle bg-grey margin-b-5"></span>
+                                    <div>grey</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <!-- Typography -->
+                    <div id="typography" class="padding-v-30">
+                        <h2><strong>Typography</strong></h2>
+                        <!-- Headings -->
+                        <h3>Headings</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <h1>h1. Bootstrap heading</h1>
+                                <h2>h2. Bootstrap heading</h2>
+                                <h3>h3. Bootstrap heading</h3>
+                                <h4>h4. Bootstrap heading</h4>
+                                <h5>h5. Bootstrap heading</h5>
+                                <h6>h6. Bootstrap heading</h6>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;h1&gt;</span><span class="pln">h1. Bootstrap heading</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+</span><span class="tag">&lt;h2&gt;</span><span class="pln">h2. Bootstrap heading</span><span class="tag">&lt;/h2&gt;</span><span class="pln">
+</span><span class="tag">&lt;h3&gt;</span><span class="pln">h3. Bootstrap heading</span><span class="tag">&lt;/h3&gt;</span><span class="pln">
+</span><span class="tag">&lt;h4&gt;</span><span class="pln">h4. Bootstrap heading</span><span class="tag">&lt;/h4&gt;</span><span class="pln">
+</span><span class="tag">&lt;h5&gt;</span><span class="pln">h5. Bootstrap heading</span><span class="tag">&lt;/h5&gt;</span><span class="pln">
+</span><span class="tag">&lt;h6&gt;</span><span class="pln">h6. Bootstrap heading</span><span class="tag">&lt;/h6&gt;</span></pre>
+                        <!-- Paragraph -->
+                        <h3>Paragraph</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <p class="lead">Maecenas a risus quis ipsum convallis fringilla in ut magna. Phasellus et sagittis odio. Sed in enim condimentum, lacinia metus id, sollicitudin libero. In ac ultricies justo. </p>
+                                <p>Curabitur sit amet turpis eu diam luctus viverra. Sed viverra ornare ex, quis lobortis diam vehicula a. In imperdiet est tristique, malesuada odio quis, volutpat ante. Nulla ullamcorper, nisl sed faucibus posuere, dui turpis mattis turpis, in porttitor massa odio nec sapien.</p>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"lead"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span><span class="pln">
+</span><span class="tag">&lt;p&gt;</span><span class="pln">...</span><span class="tag">&lt;/p&gt;</span></pre>
+                        <!-- Blockquote -->
+                        <h3>Blockquote</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <footer><img src="./documentation_files/testimonial-avatar01.jpg" alt="..." class="circle circle-xs">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;blockquote&gt;</span><span class="pln">
+    </span><span class="tag">&lt;p&gt;</span><span class="pln">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</span><span class="tag">&lt;/p&gt;</span><span class="pln">
+    </span><span class="tag">&lt;footer&gt;&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"circle circle-xs"</span><span class="tag">&gt;</span><span class="pln">Someone famous in </span><span class="tag">&lt;cite</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Source Title"</span><span class="tag">&gt;</span><span class="pln">Source Title</span><span class="tag">&lt;/cite&gt;&lt;/footer&gt;</span><span class="pln">
+</span><span class="tag">&lt;/blockquote&gt;</span></pre>
+                    </div> 
+
+                    <!-- Buttons -->
+                    <div id="buttons" class="padding-v-30">
+                        <h2><strong>Buttons</strong></h2>
+                        <h3>Button Types</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example - scheme colors</div>
+                            <div class="example-box-content">
+                                <button class="btn btn-primary"><span>Primary</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-secondary"><span>Secondary</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-tertiary"><span>Tertiary</span><i class="ti-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Example - available colors</div>
+                            <div class="example-box-content">
+                                <p>
+                                    <button class="btn btn-default"><span>Default</span><i class="ti-arrow-right"></i></button>
+                                    <button class="btn btn-green"><span>Green (Success)</span><i class="ti-arrow-right"></i></button>
+                                    <button class="btn btn-blue"><span>Blue (Info)</span><i class="ti-arrow-right"></i></button>
+                                    <button class="btn btn-orange"><span>Orange (Warning)</span><i class="ti-arrow-right"></i></button>
+                                    <button class="btn btn-red"><span>Red (Danger)</span><i class="ti-arrow-right"></i></button>
+                                    <button class="btn btn-link"><span>Link</span><i class="ti-arrow-right"></i></button>
+                                </p>
+                                <button class="btn btn-blue-dark"><span>Blue Dark</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-blue-navy"><span>Blue Navy</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-green-dark"><span>Green Dark</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-green-navy"><span>Green Navy</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-red-dark"><span>Red Dark</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-red-navy"><span>Red Navy</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-brown"><span>Brown</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-yellow"><span>Yellow</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-yellow-navy"><span>Yellow Navy</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-purple"><span>Purple</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-purple-navy"><span>Purple Navy</span><i class="ti-arrow-right"></i></button>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-primary"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Primary</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-secondary"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Secondary</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-tertiary"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Tertiary</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-default"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Default</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-green"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Green (Success)</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-blue"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Blue (Info)</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-orange"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Orange (Warning)</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Red (Danger)</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-blue-navy"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Blue Navy</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-green-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Green Dark</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-green-navy"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Green Navy</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Red Dark</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red-navy"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Red Navy</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-brown"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Brown</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-yellow"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Yellow</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-yellow-navy"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Yellow Navy</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span></pre>
+                        <h3>Button Sizes</h3>
+                        <p>Want to create bigger or smaller buttons? Just use <code>.btn-lg</code>, <code>.btn-sm</code>, <code>.btn-xs</code> classes.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <button class="btn btn-lg btn-blue-dark"><span>Button Large</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-blue-dark"><span>Button Default</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-sm btn-blue-dark"><span>Button Small</span><i class="ti-arrow-right"></i></button>
+                                <button class="btn btn-xs btn-blue-dark"><span>Button Xtra Small</span><i class="ti-arrow-right"></i></button>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-lg btn-blue-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Button Large</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-blue-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Button Default</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-sm btn-blue-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Button Small</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-xs btn-blue-dark"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Button Xtra Small</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-arrow-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span></pre>
+                    </div> 
+
+                    <!-- Labels -->
+                    <div id="labels" class="padding-v-30">
+                        <h2><strong>Labels</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <span class="label label-default">Default</span>
+                                <span class="label label-primary">Primary</span>
+                                <span class="label label-success">Success</span>
+                                <span class="label label-info">Info</span>
+                                <span class="label label-warning">Warning</span>
+                                <span class="label label-danger">Danger</span>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-default"</span><span class="tag">&gt;</span><span class="pln">Default</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-primary"</span><span class="tag">&gt;</span><span class="pln">Primary</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-success"</span><span class="tag">&gt;</span><span class="pln">Success</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-info"</span><span class="tag">&gt;</span><span class="pln">Info</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-warning"</span><span class="tag">&gt;</span><span class="pln">Warning</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"label label-danger"</span><span class="tag">&gt;</span><span class="pln">Danger</span><span class="tag">&lt;/span&gt;</span></pre>
+                    </div>
+
+                    <!-- Images -->
+                    <div id="images" class="padding-v-30">
+                        <h2><strong>Images</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                       <img src="./documentation_files/notebook-square.jpg" alt="..." class="img-rounded">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./documentation_files/notebook-square.jpg" alt="..." class="img-circle">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./documentation_files/notebook-square.jpg" alt="..." class="img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-rounded"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-circle"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;img</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-thumbnail"</span><span class="tag">&gt;</span></pre>
+                    </div>
+
+                    <!-- Pagination -->
+                    <div id="pagination" class="padding-v-30">
+                        <h2><strong>Pagination</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <nav>
+                                    <ul class="pagination">
+                                        <li><a href="http://themes.suelo.pl/mi/documentation.html#" aria-label="Previous"><i class="ti-arrow-left"></i></a></li>
+                                        <li class="active"><a href="http://themes.suelo.pl/mi/documentation.html#">1</a></li>
+                                        <li><a href="http://themes.suelo.pl/mi/documentation.html#">2</a></li>
+                                        <li><a href="http://themes.suelo.pl/mi/documentation.html#">3</a></li>
+                                        <li><a href="http://themes.suelo.pl/mi/documentation.html#" aria-label="Next"><i class="ti-arrow-right"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"pagination"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">aria-label</span><span class="pun">=</span><span class="atv">"Previous"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-chevron-left"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">1</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">2</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="tag">&gt;</span><span class="pln">3</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">aria-label</span><span class="pun">=</span><span class="atv">"Next"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-chevron-right"</span><span class="tag">&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+</span><span class="tag">&lt;/ul&gt;</span></pre>
+                    </div>
+
+                    <!-- Icons -->
+                    <div id="icons" class="padding-v-30">
+                        <h2><strong>Icons</strong></h2>
+                        <p class="lead">Mi. template includes two fantastic sets of icons - <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank" class="link-default">Font Awesome</a> and <a href="http://themify.me/themify-icons/" target="_blank" class="link-default">Themify Icons</a></p>
+                        <h3>Basic Icons</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="row">
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-lg"><i class="ti-desktop"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon"><i class="fa fa-rocket"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-sm"><i class="ti-desktop"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-xs"><i class="fa fa-rocket"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-lg"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-desktop"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-sm"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-desktop"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-xs"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>
+                        <h3>circle Icons</h3>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="row">
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-circle icon-primary icon-lg"><i class="ti-desktop"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-circle icon-primary"><i class="fa fa-rocket"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-circle icon-primary icon-sm"><i class="ti-desktop"></i></span>
+                                    </div>
+                                    <div class="col-md-3"> 
+                                        <span class="icon icon-circle icon-primary icon-xs"><i class="fa fa-rocket"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary icon-lg"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-desktop"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary icon-sm"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-desktop"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary icon-xs"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>
+                        <h3>Colors</h3>
+                        <p>Each icon may be used in any color form <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section. For Basic Icons please use <code>.text-[color-name]</code> class, and for Suare Icons <code>.icon-[color-name]</code> - for example:</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <span class="icon text-orange"><i class="fa fa-rocket"></i></span>
+                                <span class="icon icon-circle icon-orange"><i class="fa fa-rocket"></i></span>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon text-orange"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-orange"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>
+                    <h3>Hover effect</h3>
+                    <p>Icons provides nice hover effect by adding <code>.icon-hover</code> class.</p>
+                    <div class="example-box">
+                        <div class="example-box-title">Example</div>
+                        <div class="example-box-content">
+                            <span class="icon icon-hover text-green"><i class="fa fa-rocket"></i></span>
+                            <span class="icon icon-circle icon-green icon-hover"><i class="fa fa-rocket"></i></span>
+                        </div>
+                    </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-hover text-green"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-green icon-hover"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-rocket"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>
+                    </div>
+
+                    <!-- Forms -->
+                    <div id="forms" class="padding-v-30">
+                        <h2><strong>Forms</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="form-group">
+                                    <label for="exampleInput">Input:</label>
+                                    <input type="email" class="form-control" id="exampleInput" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Textarea:</label>
+                                    <textarea class="form-control" id="exampleTextarea" placeholder="Example Textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-group"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"exampleInput"</span><span class="tag">&gt;</span><span class="pln">Input:</span><span class="tag">&lt;/label&gt;</span><span class="pln">
+    </span><span class="tag">&lt;input</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"email"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-control"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"exampleInput"</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Email"</span><span class="tag">&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-group"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;label</span><span class="pln"> </span><span class="atn">for</span><span class="pun">=</span><span class="atv">"exampleTextarea"</span><span class="tag">&gt;</span><span class="pln">Textarea:</span><span class="tag">&lt;/label&gt;</span><span class="pln">
+    </span><span class="tag">&lt;textarea</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"form-control"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"exampleTextarea"</span><span class="pln"> </span><span class="atn">placeholder</span><span class="pun">=</span><span class="atv">"Example Textarea"</span><span class="tag">&gt;&lt;/textarea&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre>
+                    </div>
+
+                    <!-- Alerts -->
+                    <div id="alerts" class="padding-v-30">
+                        <h2><strong>Alerts</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="alert alert-success" role="alert">
+                                    <strong>Well done!</strong> You successfully read this important alert message.
+                                </div>
+                                <div class="alert alert-info" role="alert">
+                                    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                                </div>
+                                <div class="alert alert-warning" role="alert">
+                                    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                                </div>
+                                <div class="alert alert-danger" role="alert">
+                                    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-success"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-info"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-warning"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-danger"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/div&gt;</span></pre>
+                    </div>
+
+                    <!-- Testimonials -->
+                    <div id="testimonials" class="padding-v-30">
+                        <h2><strong>Testimonials</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <!-- Testimonial -->
+                                <div class="testimonial">
+                                  <div class="testimonial-content font-alt">
+                                      Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. 
+                                  </div>
+                                  <div class="testimonial-author testimonial-with-photo">
+                                      <div class="testimonial-photo animated zoomIn visible" data-animation="zoomIn"><img class="img-circle" src="./documentation_files/testimonial-avatar01.jpg" alt=""></div>
+                                      <div class="testimonial-author-txt">
+                                          <span class="name">Mark Wagner</span>
+                                          <span class="caption text-primary">Google Inc.</span>
+                                      </div>
+                                  </div>
+                                </div>
+                                <div class="bg-primary padding-20">
+                                    <!-- Testimonial -->
+                                    <div class="testimonial testimonial-dark">
+                                      <div class="testimonial-content font-alt">
+                                          Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. 
+                                      </div>
+                                      <div class="testimonial-author testimonial-with-photo">
+                                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="./documentation_files/testimonial-avatar01.jpg" alt=""></div>
+                                          <div class="testimonial-author-txt">
+                                              <span class="name">Mark Wagner</span>
+                                              <span class="caption text-secondary">Google Inc.</span>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <!-- Testimonial -->
+                                    <div class="testimonial testimonial-white margin-b-10">
+                                      <div class="testimonial-content font-alt">
+                                          Non odio maximus, eget ultrices mauris rutrum. Phasellus non diam in neque interdum gravida. 
+                                      </div>
+                                      <div class="testimonial-author testimonial-with-photo">
+                                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="./documentation_files/testimonial-avatar01.jpg" alt=""></div>
+                                          <div class="testimonial-author-txt">
+                                              <span class="name">Mark Wagner</span>
+                                              <span class="caption text-secondary">Google Inc.</span>
+                                          </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Testimonial - Default --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-content font-alt"</span><span class="tag">&gt;</span><span class="pln">
+      ...
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author testimonial-with-photo"</span><span class="tag">&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-photo animated"</span><span class="pln"> </span><span class="atn">data-animation</span><span class="pun">=</span><span class="atv">"zoomIn"</span><span class="tag">&gt;&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-circle"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="tag">/&gt;&lt;/div&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author-txt"</span><span class="tag">&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span><span class="pln">Mark Wagner</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"caption text-primary"</span><span class="tag">&gt;</span><span class="pln">Google Inc.</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+      </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+
+</span><span class="com">&lt;!-- Testimonial - Dark --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial testimonial-dark"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-content font-alt"</span><span class="tag">&gt;</span><span class="pln">
+      ...
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author testimonial-with-photo"</span><span class="tag">&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-photo animated"</span><span class="pln"> </span><span class="atn">data-animation</span><span class="pun">=</span><span class="atv">"zoomIn"</span><span class="tag">&gt;&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-circle"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="tag">/&gt;&lt;/div&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author-txt"</span><span class="tag">&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span><span class="pln">Mark Wagner</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"caption text-secondary"</span><span class="tag">&gt;</span><span class="pln">Google Inc.</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+      </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+
+</span><span class="com">&lt;!-- Testimonial - White --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial testimonial-white"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-content font-alt"</span><span class="tag">&gt;</span><span class="pln">
+      ...
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author testimonial-with-photo"</span><span class="tag">&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-photo animated"</span><span class="pln"> </span><span class="atn">data-animation</span><span class="pun">=</span><span class="atv">"zoomIn"</span><span class="tag">&gt;&lt;img</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"img-circle"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">alt</span><span class="pun">=</span><span class="atv">""</span><span class="pln"> </span><span class="tag">/&gt;&lt;/div&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"testimonial-author-txt"</span><span class="tag">&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"name"</span><span class="tag">&gt;</span><span class="pln">Mark Wagner</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+          </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"caption text-secondary"</span><span class="tag">&gt;</span><span class="pln">Google Inc.</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+      </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre>
+                    </div>
+
+                    <!-- Timelines -->
+                    <div id="timelines" class="padding-v-30">
+                        <h2><strong>Timelines</strong></h2>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <!-- Timeline -->
+                                <div class="timeline">
+                                    <!-- Single event -->
+                                    <div class="timeline-event te-primary">
+                                        <span class="event-date">Jan 2004 - Dec 2006</span>
+                                        <span class="event-name">Specialization course</span>
+                                        <span class="event-description">University of studies, Poland, Cracow</span>
+                                    </div>
+                                    <!-- Single event -->
+                                    <div class="timeline-event te-primary">
+                                        <span class="event-date">Jan 2004 - Dec 2006</span>
+                                        <span class="event-name">Specialization course</span>
+                                        <span class="event-description">University of studies, Poland, Cracow</span>
+                                    </div>
+                                    <!-- Single event -->
+                                    <div class="timeline-event te-primary">
+                                        <span class="event-date">Jan 2004 - Dec 2006</span>
+                                        <span class="event-name">Specialization course</span>
+                                        <span class="event-description">University of studies, Poland, Cracow</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Timeline --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"timeline"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="com">&lt;!-- Single event --&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"timeline-event te-primary"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-date"</span><span class="tag">&gt;</span><span class="pln">Jan 2004 - Dec 2006</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-name"</span><span class="tag">&gt;</span><span class="pln">Specialization course</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-description"</span><span class="tag">&gt;</span><span class="pln">University of studies, Poland, Cracow</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="com">&lt;!-- Single event --&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"timeline-event te-primary"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-date"</span><span class="tag">&gt;</span><span class="pln">Jan 2004 - Dec 2006</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-name"</span><span class="tag">&gt;</span><span class="pln">Specialization course</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-description"</span><span class="tag">&gt;</span><span class="pln">University of studies, Poland, Cracow</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="com">&lt;!-- Single event --&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"timeline-event te-primary"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-date"</span><span class="tag">&gt;</span><span class="pln">Jan 2004 - Dec 2006</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-name"</span><span class="tag">&gt;</span><span class="pln">Specialization course</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+        </span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"event-description"</span><span class="tag">&gt;</span><span class="pln">University of studies, Poland, Cracow</span><span class="tag">&lt;/span&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre>
+                    <p>Each event on timeline may have diffrent color from <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section by using <code>.te-[color-name]</code> class.</p>
+                    </div>
+
+                    <!-- Helper Classes -->
+                    <div id="classes" class="padding-v-30">
+                        <h2><strong>Helper Classes</strong></h2>
+                        <h3>Text Colors</h3>
+                        <p>It is possible to add any color form <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section by <code>.text-[color-name]</code> class</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <span class="text-orange">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</span>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"text-orange"</span><span class="tag">&gt;</span><span class="pln">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</span><span class="tag">&lt;/span&gt;</span></pre>
+                        <h3>Backgrounds</h3>
+                        <p>Similar to text colors it is possible to add backgorund color from <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section by <code>.bg-[color-name]</code> class. <br><br>
+                        For dark background colors it is necessary to add <code>dark</code> class to adjust font colors and other styles. Sometimes, if inside dark element is placed element with light background you should add <code>light</code> class to such element.</p> 
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <p class="bg-orange dark padding-20">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"bg-orange dark"</span><span class="tag">&gt;</span><span class="pln">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</span><span class="tag">&lt;/p&gt;</span></pre>
+                        <h3>Free Space</h3>
+                        <p>It is possible to add free spaces to the site by using special classes base of this scheme: <code>.[type]-[direction]-[value]</code>.</p>
+                        <ul class="list-unstyled">
+                            <li><code>[type]</code> - sets type of free space - <i>margin, padding</i></li>
+                            <li><code>[direction]</code> - sets direction of free space (optional) - t <small>(top)</small>, r <small>(right)</small>, b <small>(bottom)</small>, l <small>(left)</small>, v <small>(vertical)</small>, h <small>(horizontal)</small></li>
+                            <li><code>[value]</code> - sets value of free space - 0, 5, 10, 15, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130</li>
+                        </ul>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="bg-green dark padding-v-60 padding-h-30">Box with 60px vertical padding and 30px horizontal padding</div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"bg-green dark padding-v-60 padding-h-30"</span><span class="tag">&gt;</span><span class="pln">Box with 60px vertical padding and 30px horizontal padding</span><span class="tag">&lt;/div&gt;</span></pre>
+                        <h3>Border</h3>
+                        <p>It is possible to add border to any of html elements by adding proper class:</p>
+                         <ul class="list-unstyled">
+                            <li><code>.border</code> - adds border to element</li>
+                            <li><code>.border-top</code> - adds top border to element</li>
+                            <li><code>.border-bottom</code> - adds bottom border to element</li>
+                        </ul>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="padding-b-10 border-bottom">Element with border-bottom and 20px bottom padding</div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"padding-b-10 border-bottom"</span><span class="tag">&gt;</span><span class="pln">Element with border-bottom and 20px bottom padding</span><span class="tag">&lt;/div&gt;</span></pre>
+                        <h3>Heights &amp; vertical center position</h3>
+                        <p>The template allows to set minimial height of block html element. It is possible by using <code>.h-[value]</code> class.<br>
+                        <small>[value] is a number from 100 to 900 with 100 gap or sm (40% of viewport), md (60% of viewport) and lg (80% of viewport)</small>.</p>
+                        <p>By <code>.fullheight</code> class you set elements height equal to the browser viewport height.</p>
+                        <p>Using <code>.v-center</code> class makes element positioned vertically center in relation to the parent.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="h-200 border"><div class="padding-20 v-center">Element in vertical center position inside 200px container with border.</div></div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h-200 border"</span><span class="tag">&gt;&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"padding-20 v-center"</span><span class="tag">&gt;</span><span class="pln">Element in vertical center position inside 200px container with border.</span><span class="tag">&lt;/div&gt;&lt;/div&gt;</span></pre> 
+                        <p class="lead">More useful helper classes are listed on <a href="http://getbootstrap.com/css/#helper-classes" target="_blank" class="link-default">Bootstrap's 3 website</a>!</p>
+                    </div>
+
+                </div>
+                <!-- Elements / End -->
+
+                <!-- Components -->
+                <div id="components" class="padding-v-90">
+
+                    <h1 class="border-bottom padding-b-10">Components</h1>
+                    <p class="lead">Thanks to the prepared components you will be able to create really cool and effective, easy to use websites. Let's start exploring them!</p>
+                    
+                    <!-- Progress Bar -->
+                    <div id="progressbars" class="padding-v-30">
+                        <h2><strong>Progress Bars</strong></h2>
+                        <p class="lead">Present the data on this easy to use progress bars.</p>
+                        <p>To set color of progress bar please add the <code>.progress-bar-[color-name]</code> class, where <code>[color-name]</code> is a name of color from <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-green-navy" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"><span>60%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="progress progress-animated">
+                                    <div class="progress-bar progress-bar-green-navy" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><span>60%</span></div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"progress"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"progress-bar progress-bar-green-navy"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"progressbar"</span><span class="pln"> </span><span class="atn">aria-valuenow</span><span class="pun">=</span><span class="atv">"60"</span><span class="pln"> </span><span class="atn">aria-valuemin</span><span class="pun">=</span><span class="atv">"0"</span><span class="pln"> </span><span class="atn">aria-valuemax</span><span class="pun">=</span><span class="atv">"100"</span><span class="pln"> </span><span class="atn">style</span><span class="pun">=</span><span class="atv">"</span><span class="pln">width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">60</span><span class="pun">%;</span><span class="atv">"</span><span class="tag">&gt;</span><span class="pln">60%</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre> 
+                    </div>
+                    
+                    <!-- Pie Charts -->
+                    <div id="piecharts" class="padding-v-30">
+                        <h2><strong>Pie Charts</strong></h2>
+                        <p>To edit colors, please change the <code>data-bar-color</code> and <code>data-track-color</code> attributes. Charts size and line width are set at <code>data-size</code> and <code>data-line-width</code>. To change value please set the <code>data-value</code> attribute.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div class="chart" data-bar-color="#85B448" data-track-color="#E5E5E5" data-size="190" data-line-width="8" data-value="55" style="width: 190px; height: 190px;"><span class="percent" style="line-height: 190px;"></span><canvas height="190" width="190"></canvas></div>
+                                <div class="chart" data-bar-color="#85B448" data-track-color="#E5E5E5" data-size="120" data-line-width="4" data-value="25" style="width: 120px; height: 120px;"><span class="percent" style="line-height: 120px;"></span><canvas height="120" width="120"></canvas></div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"chart"</span><span class="pln"> </span><span class="atn">data-bar-color</span><span class="pun">=</span><span class="atv">"#85B448"</span><span class="pln"> </span><span class="atn">data-track-color</span><span class="pun">=</span><span class="atv">"#E5E5E5"</span><span class="pln"> </span><span class="atn">data-size</span><span class="pun">=</span><span class="atv">"190"</span><span class="pln"> </span><span class="atn">data-line-width</span><span class="pun">=</span><span class="atv">"8"</span><span class="pln"> </span><span class="atn">data-value</span><span class="pun">=</span><span class="atv">"55"</span><span class="tag">&gt;&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"percent"</span><span class="tag">&gt;&lt;/span&gt;&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"chart"</span><span class="pln"> </span><span class="atn">data-bar-color</span><span class="pun">=</span><span class="atv">"#85B448"</span><span class="pln"> </span><span class="atn">data-track-color</span><span class="pun">=</span><span class="atv">"#E5E5E5"</span><span class="pln"> </span><span class="atn">data-size</span><span class="pun">=</span><span class="atv">"120"</span><span class="pln"> </span><span class="atn">data-line-width</span><span class="pun">=</span><span class="atv">"4"</span><span class="pln"> </span><span class="atn">data-value</span><span class="pun">=</span><span class="atv">"25"</span><span class="tag">&gt;&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"percent"</span><span class="tag">&gt;&lt;/span&gt;&lt;/div&gt;</span></pre> 
+                    </div>
+
+                    <!-- Tabs -->
+                    <div id="tabs" class="padding-v-30">
+                        <h2><strong>Tabs</strong></h2>
+                        <p class="lead">Feel free to use the tabs for dynamic content.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-pills margin-b-10" role="tablist">
+                                    <li role="presentation" class="active"><a href="http://themes.suelo.pl/mi/documentation.html#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                                    <li role="presentation"><a href="http://themes.suelo.pl/mi/documentation.html#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                                    <li role="presentation"><a href="http://themes.suelo.pl/mi/documentation.html#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade in active" id="home">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</div>
+                                    <div role="tabpanel" class="tab-pane fade" id="profile">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="messages">Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+                                </div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Nav tabs --&gt;</span><span class="pln">
+</span><span class="tag">&lt;ul</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"nav nav-pills margin-b-10"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tablist"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"presentation"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"active"</span><span class="tag">&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#home"</span><span class="pln"> </span><span class="atn">aria-controls</span><span class="pun">=</span><span class="atv">"home"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tab"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Home</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"presentation"</span><span class="tag">&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#profile"</span><span class="pln"> </span><span class="atn">aria-controls</span><span class="pun">=</span><span class="atv">"profile"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tab"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Profile</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"presentation"</span><span class="tag">&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#messages"</span><span class="pln"> </span><span class="atn">aria-controls</span><span class="pun">=</span><span class="atv">"messages"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tab"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tab"</span><span class="tag">&gt;</span><span class="pln">Messages</span><span class="tag">&lt;/a&gt;&lt;/li&gt;</span><span class="pln">
+</span><span class="tag">&lt;/ul&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Tab panes --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-content"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tabpanel"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-pane fade in active"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"home"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tabpanel"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-pane fade"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"profile"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"tabpanel"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"tab-pane fade"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"messages"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre> 
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="modal" class="padding-v-30">
+                        <h2><strong>Modal</strong></h2>
+                        <p class="lead">Modal window is perfect place for any kind of content.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-blue btn-lg" data-toggle="modal" data-target="#demoModal"><span>Launch demo modal</span><i class="ti-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <!-- Modal - Demo -->
+                        <div class="modal fade modal-blue-dark" id="demoModal" tabindex="-1" role="dialog">
+                          <button type="button" class="modal-close" data-dismiss="modal"><span class="sr-only">Close</span><i class="ti-close"></i></button>
+                          <div class="modal-dialog modal-md" role="document">
+                            <div class="modal-intro">
+                                <h1 class="margin-b-60">Example introduction text for modal window!</h1>
+                            </div>
+                            <div class="modal-content">
+                              <div class="modal-body">
+                                ....
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Button trigger modal --&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-blue btn-lg"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"modal"</span><span class="pln"> </span><span class="atn">data-target</span><span class="pun">=</span><span class="atv">"#demoModal"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Launch demo modal</span><span class="tag">&lt;/span&gt;&lt;/button&gt;</span><span class="pln">
+
+</span><span class="com">&lt;!-- Modal - Demo --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal fade modal-blue-dark"</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"demoModal"</span><span class="pln"> </span><span class="atn">tabindex</span><span class="pun">=</span><span class="atv">"-1"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"dialog"</span><span class="tag">&gt;</span><span class="pln">
+  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal-close"</span><span class="pln"> </span><span class="atn">data-dismiss</span><span class="pun">=</span><span class="atv">"modal"</span><span class="tag">&gt;&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"sr-only"</span><span class="tag">&gt;</span><span class="pln">Close</span><span class="tag">&lt;/span&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-close"</span><span class="tag">&gt;&lt;/i&gt;&lt;/button&gt;</span><span class="pln">
+  </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal-dialog modal-md"</span><span class="pln"> </span><span class="atn">role</span><span class="pun">=</span><span class="atv">"document"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal-intro"</span><span class="tag">&gt;</span><span class="pln">
+        </span><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"margin-b-60"</span><span class="tag">&gt;</span><span class="pln">Example introduction text for modal window!</span><span class="tag">&lt;/h1&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal-content"</span><span class="tag">&gt;</span><span class="pln">
+      </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"modal-body"</span><span class="tag">&gt;</span><span class="pln">
+        ....
+      </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+  </span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre> 
+                        <h3>Sizes</h3>
+                        <p>Modals have three optional sizes <code>.modal-sm</code>, <code>.modal-md</code>, <code>.modal-lg</code> available via modifier classes to be placed on a .modal-dialog.</p>
+                        <h3>Colors</h3>
+                        <p>It is possible to set color for modal backgrdop layer by adding <code>.modal-[color-name]</code> class to <code>.modal</code> element. As previously <code>[color-name]</code> is a name of color from <a href="http://themes.suelo.pl/mi/documentation.html#colors" class="link-default">Available Colors</a> section.</p>
+                    </div>
+
+                    <!-- Ajax Modal -->
+                    <div id="ajaxmodal" class="padding-v-30">
+                        <h2><strong>Ajax Modal</strong></h2>
+                        <p class="lead">Load dynamic content by Ajax using special modal windows.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="btn btn-orange btn-lg" data-target="ajax-modal">Load example ajax modal</a>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Ajax Trigger --&gt;</span><span class="pln">
+</span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"..."</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-orange btn-lg"</span><span class="pln"> </span><span class="atn">data-target</span><span class="pun">=</span><span class="atv">"ajax-modal"</span><span class="tag">&gt;&lt;span&gt;</span><span class="pln">Load example ajax modal</span><span class="tag">&lt;/span&gt;&lt;/a&gt;</span><span class="pln">
+
+</span><span class="com">&lt;!-- Two mandatory elements somewhere at the end of body --&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Ajax Wrapper --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"ajax-modal"</span><span class="tag">&gt;&lt;/div&gt;</span><span class="pln">
+</span><span class="com">&lt;!-- Ajax Loader --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"ajax-loader"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"fa fa-spinner fa-spin"</span><span class="tag">&gt;&lt;/i&gt;&lt;/div&gt;</span></pre> 
+                    </div>
+
+                    <!-- Carousel -->
+                    <div id="carousel" class="padding-v-30">
+                        <h2><strong>Carousel</strong></h2>
+                        <p class="lead">Carousel is a really cool element to preset any kind of content like photos, icons, texts, etc.</p>
+                        <p>To use carousel it is necessary to set some attribuites to <code>.carousel</code> element:</p>
+                        <ul class="list-unstyled">
+                            <li><code>data-items</code> - sets the maximum amount of items displayed at a time with the widest browser width.</li>
+                            <li><code>data-items-desktop</code> - allows you to preset the number of slides visible with a particular browser width. The format is [x,y] whereby x=browser width and y=number of slides displayed. For example [1199,4] means that if(window smaller or equal 1999){show 4 slides per page} Alternatively use data-items-desktop='false' to override these settings.</li>
+                            <li><code>data-items-tablet</code> - as above</li>
+                            <li><code>data-items-mobile</code> - as above</li>
+                            <li><code>data-single-item</code> - sets single item carousel</li>
+                            <li><code>data-auto-play</code> - adds auto slideshow which value is the slide speed (default 3000)</li>
+                            <li><code>data-pagination</code> - disables / enables pagination</li>
+                        </ul>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <!-- Carousel -->
+                                <div class="carousel owl-carousel owl-theme" data-items="3" data-items-desktop="[1199,3]" data-items-tablet="[979,2]" data-items-mobile="[400,1]" data-auto-play="1500" style="opacity: 1; display: block;">
+                                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2690px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-538px, 0px, 0px);"><div class="owl-item" style="width: 269px;"><div class="slide">
+                                        <span class="icon icon-lg"><i class="ti-desktop"></i></span>
+                                    </div></div><div class="owl-item" style="width: 269px;"><div class="slide">
+                                        <span class="icon icon-lg"><i class="ti-tablet"></i></span>
+                                    </div></div><div class="owl-item" style="width: 269px;"><div class="slide">
+                                        <span class="icon icon-lg"><i class="ti-mobile"></i></span>
+                                    </div></div><div class="owl-item" style="width: 269px;"><div class="slide">
+                                        <span class="icon icon-lg"><i class="ti-mouse"></i></span>
+                                    </div></div><div class="owl-item" style="width: 269px;"><div class="slide">
+                                        <span class="icon icon-lg"><i class="ti-time"></i></span>
+                                    </div></div></div></div>
+                                    
+                                    
+                                    
+                                    
+                                <div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page"><span class=""></span></div><div class="owl-page active"><span class=""></span></div></div></div></div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="com">&lt;!-- Carousel --&gt;</span><span class="pln">
+</span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"carousel"</span><span class="pln"> </span><span class="atn">data-items</span><span class="pun">=</span><span class="atv">"3"</span><span class="pln"> </span><span class="atn">data-items-desktop</span><span class="pun">=</span><span class="atv">"[1199,3]"</span><span class="pln"> </span><span class="atn">data-items-tablet</span><span class="pun">=</span><span class="atv">"[979,2]"</span><span class="pln"> </span><span class="atn">data-items-mobile</span><span class="pun">=</span><span class="atv">"[400,1]"</span><span class="pln"> </span><span class="atn">data-auto-play</span><span class="pun">=</span><span class="atv">"1500"</span><span class="tag">&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"slide"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"slide"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"slide"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"slide"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+    </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"slide"</span><span class="tag">&gt;</span><span class="pln">...</span><span class="tag">&lt;/div&gt;</span><span class="pln">
+</span><span class="tag">&lt;/div&gt;</span></pre> 
+                    </div>
+
+                    <!-- Tooltip -->
+                    <div id="tooltip" class="padding-v-30">
+                        <h2><strong>Tooltips</strong></h2>
+                        <p class="lead">Hover the buttons to see the tooltips.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <button type="button" class="btn btn-red btn-sm" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">Tooltip on left</button>
+                                <button type="button" class="btn btn-red btn-sm" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltip on top</button>
+                                <button type="button" class="btn btn-red btn-sm" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
+                                <button type="button" class="btn btn-red btn-sm" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on right">Tooltip on right</button>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red btn-sm"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tooltip"</span><span class="pln"> </span><span class="atn">data-placement</span><span class="pun">=</span><span class="atv">"left"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Tooltip on left"</span><span class="tag">&gt;</span><span class="pln">Tooltip on left</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red btn-sm"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tooltip"</span><span class="pln"> </span><span class="atn">data-placement</span><span class="pun">=</span><span class="atv">"top"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Tooltip on top"</span><span class="tag">&gt;</span><span class="pln">Tooltip on top</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red btn-sm"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tooltip"</span><span class="pln"> </span><span class="atn">data-placement</span><span class="pun">=</span><span class="atv">"bottom"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Tooltip on bottom"</span><span class="tag">&gt;</span><span class="pln">Tooltip on bottom</span><span class="tag">&lt;/button&gt;</span><span class="pln">
+</span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"btn btn-red btn-sm"</span><span class="pln"> </span><span class="atn">data-toggle</span><span class="pun">=</span><span class="atv">"tooltip"</span><span class="pln"> </span><span class="atn">data-placement</span><span class="pun">=</span><span class="atv">"right"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Tooltip on right"</span><span class="tag">&gt;</span><span class="pln">Tooltip on right</span><span class="tag">&lt;/button&gt;</span></pre> 
+                        <p>We reccomend to use light tooltips on dark layouts by adding <code>.tooltips-light</code> class to <code>body</code></p>
+                    </div>
+
+
+                </div>
+                <!-- Components / End -->
+
+                <!-- Configuration -->
+                <div id="configuration" class="padding-v-90">
+
+                    <h1 class="border-bottom padding-b-10">Configuration</h1>
+                    <p class="lead">The template includes some configurable elements - here you will find informations how to use them!</p>
+
+                    <!-- Scroll -->
+                    <div id="scroll" class="padding-v-30">
+                        <h2><strong>Page Scroll</strong></h2>
+                        <p>To change scroll easing on local navigtion please change <code>data-scroll-easing</code> attritbuite at <code>#page-wrapper</code> element. <a href="http://easings.net/" class="link-default" target="_blank">Click here</a> to check available easings effects.</p>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"page-wrapper"</span><span class="pln"> </span><span class="atn">data-scroll-easing</span><span class="pun">=</span><span class="atv">"easeOutBack"</span><span class="tag">&gt;</span><span class="pln">
+    ...
+</span><span class="tag">&lt;/div&gt;</span></pre> 
+                    </div>
+
+                    <!-- Google Maps -->
+                    <div id="googleMap" class="padding-v-30">
+                        <h2><strong>Google Map</strong></h2>
+                        <p>To configure Google Map it is necessary to set latitude and longitude parameters by <code>data-latitude</code> and <code>data-longitude</code> attributes of <code>#google-map</code> element. To get it please visit site like <a href="http://itouchmap.com/latlong.html" class="link-default" target="_blank">this</a>.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <div id="google-map" class="h-400" data-latitude="40.758895" data-longitude="-73.985131" style="position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 278px; top: 123px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 22px; top: 123px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 278px; top: -133px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 278px; top: 379px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 534px; top: 123px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 22px; top: 379px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 22px; top: -133px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 534px; top: -133px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 534px; top: 379px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 790px; top: 123px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -234px; top: 123px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -234px; top: -133px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 790px; top: -133px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: -234px; top: 379px;"></div><div style="width: 256px; height: 256px; transform: translateZ(0px); position: absolute; left: 790px; top: 379px;"></div></div></div></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 278px; top: 123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 22px; top: 123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 278px; top: -133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 278px; top: 379px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 534px; top: 123px;"><canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 22px; top: 379px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 22px; top: -133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 534px; top: -133px;"><canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 534px; top: 379px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 790px; top: 123px;"><canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -234px; top: 123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -234px; top: -133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 790px; top: -133px;"><canvas draggable="false" height="256" width="256" style="-webkit-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: -234px; top: 379px;"></div><div style="width: 256px; height: 256px; overflow: hidden; transform: translateZ(0px); position: absolute; left: 790px; top: 379px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="transform: translateZ(0px); position: absolute; left: 278px; top: 123px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 22px; top: 123px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(1)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: -234px; top: -133px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(2)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 534px; top: 379px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(3)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 22px; top: -133px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(4)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 534px; top: -133px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(5)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 22px; top: 379px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(6)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 534px; top: 123px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(7)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 278px; top: 379px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(8)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 278px; top: -133px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(9)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 790px; top: 123px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(10)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 790px; top: -133px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(11)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: -234px; top: 123px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(12)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: -234px; top: 379px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(13)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="transform: translateZ(0px); position: absolute; left: 790px; top: 379px; transition: opacity 200ms ease-out;"><img src="./documentation_files/vt(14)" draggable="false" alt="" style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%; transition-duration: 0.3s; opacity: 0; display: none;"><p class="gm-style-pbt">Use two fingers to move the map</p></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="transform: translateZ(0px); position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=40.758895,-74.015131&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img src="./documentation_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 253px; top: 110px; background-color: white;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2016 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="./documentation_files/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 168px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="-webkit-user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2016 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2016 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; -webkit-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 96px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div style="width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="./documentation_files/sv5.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 112px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div draggable="false" class="gm-style-cc" style="-webkit-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="width: auto; height: 100%; margin-left: 1px; background-color: rgb(245, 245, 245);"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@40.758895,-74.015131,14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="55" style="margin: 10px; -webkit-user-select: none; position: absolute; bottom: 69px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 0px;"><div draggable="false" style="-webkit-user-select: none; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; width: 28px; height: 55px; background-color: rgb(255, 255, 255);"><div title="Zoom in" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="./documentation_files/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; top: 0px; background-color: rgb(230, 230, 230);"></div><div title="Zoom out" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="./documentation_files/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; cursor: pointer; display: none; background-color: rgb(255, 255, 255);"><img src="./documentation_files/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="./documentation_files/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -webkit-user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div></div>
+                            </div>
+                        </div>
+<pre class="prettyprint"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"google-map"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"h-400"</span><span class="pln"> </span><span class="atn">data-latitude</span><span class="pun">=</span><span class="atv">"40.758895"</span><span class="pln"> </span><span class="atn">data-longitude</span><span class="pun">=</span><span class="atv">"-73.985131"</span><span class="tag">&gt;&lt;/div&gt;</span></pre> 
+                        <p>Map supports <code>light</code> and <code>dark</code> color themes - to set it please use <code>data-style</code> attribute.</p>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div id="contactForm" class="padding-v-30">
+                        <h2><strong>Contact Form</strong></h2>
+                        <p>To configure contact form please open <strong>contact-form.php</strong> file from <strong>/assets/php</strong> directory and go the line with an e-mail address to change it to your own - like this.</p>
+<pre class="prettyprint"><span class="pln">$emailTo </span><span class="pun">=</span><span class="pln"> </span><span class="str">'your@email.com'</span><span class="pun">;</span></pre> 
+                        <p>After that you will recieve the messages from your websites to this e-mail address.</p>
+                    </div>
+
+                    <!-- Animations -->
+                    <div id="animations" class="padding-v-30">
+                        <h2><strong>Aniamtions</strong></h2>
+                        <p class="lead">The template allows to add really cool animations for each of html elements. Let's check how to use it!</p>
+                        <h3>Entrance animation</h3>
+                        <p>This animation fires when element appears in the browser viewport. To add such animation you need to place <code>.animated</code> class in the animted element and preciese which animation do you want to use by <code>data-animation</code>attribute. It is also possible to add some delay to the animation (in ms) by <code>data-animation-delay</code> attribute.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <p>
+                                    <span class="icon icon-lg animated" data-animation="fadeInRight"><i class="ti-heart"></i></span>
+                                    <span class="icon icon-lg animated" data-animation="bounceIn" data-animation-delay="400"><i class="ti-star"></i></span>
+                                </p>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-lg animated"</span><span class="pln"> </span><span class="atn">data-animation</span><span class="pun">=</span><span class="atv">"fadeInRight"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-heart"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-lg animated"</span><span class="pln"> </span><span class="atn">data-animation</span><span class="pun">=</span><span class="atv">"bounceIn"</span><span class="pln"> </span><span class="atn">data-animation-delay</span><span class="pun">=</span><span class="atv">"400"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-star"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>                   
+                        <h3>Hover animation</h3>
+                        <p>This to this feature it is possible to add really cool hover animations. To prepare such animation it is necessary to add <code>.animated-hove</code> class to html selector, set type of animation and duration by <code>.data-hover-animation</code> and <code>.data-hover-animation-delay</code> attributes.</p>
+                        <div class="example-box">
+                            <div class="example-box-title">Example</div>
+                            <div class="example-box-content">
+                                <p>
+                                    <span class="icon icon-circle icon-primary icon-green icon-hover animated-hover margin-r-40" data-hover-animation="shake" data-hover-animation-duration="600"><i class="ti-heart"></i></span>
+                                    <span class="icon icon-circle icon-primary icon-orange icon-hover animated-hover" data-hover-animation="jello" data-hover-animation-duration="1000"><i class="ti-star"></i></span>
+                                </p>
+                            </div>
+                        </div>
+<pre class="prettyprint html-code"><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary icon-green icon-hover animated-hover"</span><span class="pln"> </span><span class="atn">data-hover-animation</span><span class="pun">=</span><span class="atv">"shake"</span><span class="pln"> </span><span class="atn">data-hover-animation-duration</span><span class="pun">=</span><span class="atv">"600"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-heart"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span><span class="pln">
+</span><span class="tag">&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"icon icon-circle icon-primary icon-orange icon-hover animated-hover"</span><span class="pln"> </span><span class="atn">data-hover-animation</span><span class="pun">=</span><span class="atv">"jello"</span><span class="pln"> </span><span class="atn">data-hover-animation-duration</span><span class="pun">=</span><span class="atv">"1000"</span><span class="tag">&gt;&lt;i</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"ti-star"</span><span class="tag">&gt;&lt;/i&gt;&lt;/span&gt;</span></pre>      
+                        <p class="lead"><a href="http://daneden.github.io/animate.css/" target="_blank" class="link-default">Click here</a> to find full list of available animations by animate.css!</p>
+                    </div>
+
+                </div>
+
+                <!-- Files & Credits -->
+                <div id="files" class="padding-v-90">
+    
+                    <h1 class="border-bottom padding-b-10">Files &amp; Credits</h1>
+
+                    <!-- CSS Files -->
+                    <div id="cssFiles" class="padding-v-30">
+                        <h2><strong>CSS Files</strong></h2>
+                        <p class="lead">The template uses mainly 3 CSS files:</p>
+                        <ul class="list-unstyled">
+                            <li><code>styles.css</code> - compressed file with all necessary plugins, fonts and animations styles <small>(more at credicts)</small></li>
+                            <li><code>theme.css</code> - <strong>main template file</strong></li>
+                            <li><code>/color/[scheme-file].css</code> - <strong>colour scheme</strong>:
+                                <ul>
+                                    <li>blue-beige.css</li>
+                                    <li>brown-beige.css</li>
+                                    <li>green-orange.css</li>
+                                    <li>orange-green.css</li>
+                                    <li>purple-yellow.css</li>
+                                    <li>red-blue.css</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        The <code>theme.css</code> file - was divided into some important sections:
+                        <ol>
+                            <li>Document Setup</li>
+                            <li>Basic</li>
+                            <li>Header</li>
+                            <li>Content</li>
+                            <li>Elements</li>
+                            <li>Media Queries</li>
+                        </ol>
+                        <p>Elements page uses one addiotional <code>prettify.css</code> stylesheet for code highlighter.</p>
+                    </div>
+
+                    <!-- CSS Files -->
+                    <div id="jsFiles" class="padding-v-30">
+                        <h2><strong>JavaScript Files</strong></h2>
+                        <p class="lead">On the end of the body of each html file there are placed 4 JavaScrpt files:</p>
+                        <ul class="list-unstyled">
+                            <li><code>jquery-1.11.1.min.js</code> - compressed file with necessary plugins, fonts and animations styles <small>(more at credicts)</small></li>
+                            <li><code>plugins.js</code> - compressed file with all necessary plugins sources <small>(more at credicts)</small></li>
+                            <li><code>core.js</code> - <strong>main JavaScript file</strong></li>
+                            <li><code>maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false</code> Google Map API</li>
+                        </ul>
+                        <p>Elements page uses one addiotional <code>prettify.js</code> plugin for code highlighter.</p>
+                    </div>
+
+                    <!-- PHP Files -->
+                    <div id="phpFiles" class="padding-v-30">
+                        <h2><strong>PHP Files</strong></h2>
+                        <p class="lead">The template includes one PHP script:</p>
+                        <ul class="list-unstyled">
+                            <li><code>contact-form.php</code> - configuration file for contact form</li>
+                        </ul>
+                    </div>
+
+                    <!-- Credits -->
+                    <div id="credits" class="padding-v-30">
+                        <h2><strong>Credits</strong></h2>
+                        <h3>Fonts:</h3>
+                        <ol>
+                            <li><strong>Helvetica Neue</strong></li>
+                            <li><strong>Roboto Condensedt</strong> - <a href="https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Condensed" target="_blank">https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Condensed</a></li>
+                            <li><strong>Roboto</strong> - <a href="https://www.google.com/fonts#UsePlace:use/Collection:Roboto" target="_blank">https://www.google.com/fonts#UsePlace:use/Collection:Roboto</a></li>
+                            <li><strong>Font Awesome</strong> - <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">http://fortawesome.github.io/Font-Awesome/</a></li>
+                            <li><strong>Themify Icons</strong> - <a href="http://themify.me/themify-icons" target="_blank">http://themify.me/themify-icons</a></li>
+                        </ol>
+                        <h3>Libraries:</h3>
+                        <ol>
+                            <li><strong>jQuery</strong> - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+                            <li><strong>Bootstrap 3</strong> - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+                        </ol>
+                        <h3>Plugins:</h3>
+                        <ol>
+                            <li><strong>Appear</strong> - <a href="http://morr.github.io/appear.html" target="_blank">http://morr.github.io/appear.html</a></li>
+                            <li><strong>Easing</strong> - <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing/</a></li>
+                            <li><strong>LocalScroll</strong> - <a href="http://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html" target="_blank">http://flesler.blogspot.com/2007/10/jquerylocalscroll-10.html</a></li>
+                            <li><strong>ScrollTo</strong> - <a href="https://github.com/flesler/jquery.scrollTo" target="_blank">https://github.com/flesler/jquery.scrollTo</a></li>
+                            <li><strong>Waypoint</strong> - <a href="http://imakewebthings.com/waypoints/" target="_blank">http://imakewebthings.com/waypoints/</a></li>
+                            <li><strong>Masonry</strong> - <a href="http://masonry.desandro.com/" target="_blank">http://masonry.desandro.com/</a></li>
+                            <li><strong>ImagesLoaded</strong> - <a href="http://imagesloaded.desandro.com/" target="_blank">http://imagesloaded.desandro.com/</a></li>
+                            <li><strong>OwlCarousel</strong> - <a href="http://owlgraphic.com/owlcarousel/" target="_blank">http://owlgraphic.com/owlcarousel/</a></li>
+                            <li><strong>EasyPieChart</strong> - <a href="http://rendro.github.io/easy-pie-chart/" target="_blank">http://rendro.github.io/easy-pie-chart/</a></li>
+                            <li><strong>jquery.mb.YTPlayer</strong> - <a href="http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/" target="_blank">http://pupunzi.open-lab.com/mb-jquery-components/jquery-mb-ytplayer/</a></li>
+                            <li><strong>Prettify</strong> - <a href="https://github.com/google/code-prettify" target="_blank">https://github.com/google/code-prettify</a></li>
+                        </ol>
+                        <h3>Images:</h3>
+                        <p>Most of images <strong>cannot be included</strong> in download package, and have been blurred for licensing reasons.</p>
+                        <h3>Other:</h3>
+                        <ol>
+                            <li><strong>Animate.css</strong> - <a href="http://daneden.github.io/animate.css/" target="_blank">http://daneden.github.io/animate.css/</a></li>
+                        </ol>
+                    </div>
+
+                    <!-- Updates -->
+                    <div id="updates" class="padding-v-30">
+                        <h2><strong>Updates</strong></h2>
+                        <!-- Single update -->
+                        <div class="margin-b-30 padding-b-30 border-bottom">
+                            <h4><strong>v1.2.1</strong></h4>
+                            <ul class="check-list">
+                                <li>Fixed CSS bugs</li>
+                                <li>Fixed JS bugs</li>
+                            </ul>
+                            <strong>Updated files:</strong> theme.css, theme.min.css, core.js, core.min.js<br>
+                        </div>
+                        <!-- Single update -->
+                        <div class="margin-b-30 padding-b-30 border-bottom">
+                            <h4><strong>v1.2</strong></h4>
+                            <ul class="check-list">
+                                <li><strong>Added</strong> promo page with 3 types of navigations.</li>
+                                <li><strong>Added</strong> portfolio filtering.</li>
+                                <li>General improvements.</li>
+                            </ul>
+                            <strong>Updated files:</strong> theme.css, *.html, core.js, plugins.js <br>
+                            <strong>New files:</strong> page-horizontal.html, page-mobile.html, page-vertical.html, theme.min.css, styles.css, core.min.js<br>
+                        </div>
+                        <!-- Single update -->
+                        <div class="margin-b-30 padding-b-30 border-bottom">
+                            <h4><strong>v1.1</strong></h4>
+                            <ul class="check-list">
+                                <li><strong>Added</strong> new 21 concepts without photo.</li>
+                            </ul>
+                            <strong>Updated files:</strong> theme.css, index.html <br>
+                            <strong>New files:</strong> 21 html files *-no-photo.html
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Files & Credits / End -->
+
+            </div>
+            <div class="col-md-3 padding-t-90 hidden-sm hidden-xs">
+
+                <nav id="side-navigation" class="side-sticky-navigation margin-l-30 affix" data-spy="affix" data-offset-top="420">
+                    <ul class="nav nav-vertical" data-target="local-scroll">
+                        <li class="">
+                            <a href="http://themes.suelo.pl/mi/documentation.html#start"><span>Getting Started</span></a>
+                            <ul>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#htmlStructure"><span>HTML Structure</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#grid"><span>Grid System</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="active">
+                            <a href="http://themes.suelo.pl/mi/documentation.html#elements"><span>CSS Elements</span></a>
+                            <ul>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#colors"><span>Available Colors</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#typography"><span>Typography</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#buttons"><span>Buttons</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#labels"><span>Labels</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#images"><span>Images</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#pagination"><span>Pagination</span></a></li>
+                                <li class="active"><a href="http://themes.suelo.pl/mi/documentation.html#icons"><span>Icons</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#forms"><span>Forms</span></a></li>
+                                <li class=""><a href="http://themes.suelo.pl/mi/documentation.html#alerts"><span>Alerts</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#testimonials"><span>Testimonials</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#timelines"><span>Timelines</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#classes"><span>Helper Classes</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="http://themes.suelo.pl/mi/documentation.html#components"><span>Components</span></a>
+                            <ul>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#progressbars"><span>Progress Bars</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#piecharts"><span>Pie Charts</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#tabs"><span>Tabs</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#modal"><span>Modal</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#ajaxmodal"><span>Ajax Modal</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#carousel"><span>Carousel</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#tooltip"><span>Tooltip</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="http://themes.suelo.pl/mi/documentation.html#configuration"><span>Configuration</span></a>
+                            <ul>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#scroll"><span>Page Scroll</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#headers"><span>Header</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#googleMap"><span>Google Map</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#contactForm"><span>Contact Form</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#animations"><span>Animations</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="http://themes.suelo.pl/mi/documentation.html#files"><span>Files &amp; Credits</span></a>
+                            <ul>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#cssFiles"><span>CSS Files</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#jsFiles"><span>JavaScript Files</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#phpFiles"><span>PHP Files</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#credits"><span>Credits</span></a></li>
+                                <li><a href="http://themes.suelo.pl/mi/documentation.html#updates"><span>Updates</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div> 
+
+    </div> 
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-blue-dark padding-v-40 dark text-center">
+        <div class="section-content copyright margin-b-20">
+            Copyright <strong>Mi.</strong> 2015©. Made with passion by <a href="http://themes.suelo.pl/mi/documentation.html#"><strong>Suelo.pl</strong></a>
+        </div>
+        <span data-target="local-scroll"><a href="http://themes.suelo.pl/mi/documentation.html#page-wrapper" class="back-to-top"><i class="fa fa-chevron-up"></i></a></span>
+    </footer>
+    <!-- Footer / End -->
+
+</div>
+<!-- Content / End -->
+
+<!-- Ajax Wrapper -->
+<div id="ajax-modal"></div>
+<!-- Ajax Loader -->
+<div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
+
+<!-- JS Libraries -->
+<script src="./documentation_files/jquery-1.11.3.min.js"></script>
+
+<!-- JS Plugins -->
+<script>
+window.paceOptions = {
+    target: '#page-loader',
+    ajax: false
+};
+</script>
+<script src="./documentation_files/plugins.js"></script>
+
+<!-- JS Core -->
+<script src="./documentation_files/core.min.js"></script>
+
+<!-- Google Map API -->
+<script src="./documentation_files/js"></script>
+
+<!-- JS CodeHighlighter -->
+<script src="./documentation_files/prettify.js"></script>
+<script>
+    // Pretty Print Init
+    !function ($) {
+        $(function(){
+          window.prettyPrint && prettyPrint()   
+        })
+    }(window.jQuery)
+
+    // Html Markups 
+    $('.html-code').each(function(){
+        var innerHtml = $(this).html();
+        innerHtml = innerHtml.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        $(this).html(innerHtml);
+    })
+</script>
+
+<!-- Styleswitcher -->
+<script src="./documentation_files/styleswitcher.js"></script>
+
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+<!--
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+-->
+
+
+
+
+<div id="style-switcher"><span class="ss-toggle bg-primary"><i class="fa fa-gear fa-spin"></i></span>
+<span class="ss-label">Color scheme:</span>
+<ul id="color-switcher">
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="blue-beige" class="active">
+	    	<span class="bg-blue"></span>
+	    	<span class="bg-blue-navy"></span>
+	    	<span class="bg-beige"></span>
+	    </a>
+    </li>
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="red-blue">
+	    	<span class="bg-red"></span>
+	    	<span class="bg-red-dark"></span>
+	    	<span class="bg-blue"></span>
+	    </a>
+    </li>
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="orange-green">
+	    	<span class="bg-orange"></span>
+	    	<span class="bg-brown"></span>
+	    	<span class="bg-green"></span>
+	    </a>
+    </li>
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="green-orange">
+	    	<span class="bg-green"></span>
+	    	<span class="bg-green-dark"></span>
+	    	<span class="bg-orange"></span>
+	    </a>
+    </li>
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="purple-yellow">
+	    	<span class="bg-purple"></span>
+	    	<span class="bg-purple-navy"></span>
+	    	<span class="bg-yellow"></span>
+	    </a>
+    </li>
+    <li>
+	    <a href="http://themes.suelo.pl/mi/documentation.html#" data-scheme="brown-beige">
+	    	<span class="bg-beige"></span>
+	    	<span class="bg-brown"></span>
+	    	<span class="bg-beige"></span>
+	    </a>
+    </li>
+</ul></div><span class="_hsShareImage hsShareImage" style="display: none;">&nbsp;</span></body></html>
